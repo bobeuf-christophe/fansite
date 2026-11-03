@@ -70,6 +70,24 @@ section {
     padding: 20px;
 }
 
+.cartes {
+    margin: 20px;
+}
+ 
+.carte {
+    background-color: white;
+    margin-bottom: 20px;   
+}
+
+.carte img {
+    width: 100%;
+    display: block;    
+}
+ 
+.carte h3, .carte p {
+    padding: 10px 15px;
+}
+
 footer {
     background-color: #222;
     padding: 20px;
@@ -91,8 +109,7 @@ footer li {
         width: auto;
     }
 
-    .my-nav ul,
-    footer ul {
+    .my-nav ul, footer ul {
         display: flex;
         gap: 20px;
     }
@@ -107,5 +124,17 @@ footer li {
     section {
         max-width: 1000px;
         margin: 40px auto;
+    }
+ 
+    .cartes {
+        display: flex;
+        gap: 20px;
+        max-width: 1000px;
+        margin: 40px auto;
+    }
+ 
+    .carte {
+        flex: 1;
+        margin-bottom: 0;
     }
 }
