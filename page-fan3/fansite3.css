@@ -97,12 +97,17 @@ section {
 	flex-direction: row reverse;
 }
 
-.carte-left h3 {
+.carte-left img {
+	width: 30%;
+	height: 20%;
+}
+
+.carte-main h3 {
 	background-color: #C9B41A;
 	height: 10%;
 }
 
-.carte-left li {
+.carte-main li {
 	margin: 20px;
 	padding: 20px;
 	a {
@@ -114,7 +119,7 @@ section {
 	}
 }
 
-.carte-left img {
+.carte-main img {
 	width: 50%;
 	height: 30%;
 	margin-left: auto;
