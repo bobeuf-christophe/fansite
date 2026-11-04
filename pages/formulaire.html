@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fan Site</title>
+    <link rel="stylesheet" href="/css/styles.css">
+     <link rel="stylesheet" href="/css/formulaire.css">
+</head>
+<body>
+    <header class="my-header">
+        <h1 class="logo">We are fans</h1>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav class="my-nav">
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./page-fan1/fansite1.html">Page fan 1</a></li>
+                <li><a href="./page-fan2/fansite2.html">Page fan 2</a></li>
+                <li><a href="./page-fan3/fansite3.html">Page fan 3</a></li>
+                <li><a href="./pages/formulaire.html">Formulaire de contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="form-container">
+                <h1>Formulaire de contact</h1>
+                <p class="subtitle">Les champs marqués d'un <span class="required">*</span> sont obligatoires.</p>
+                <form action="#" method="post">
+                    <div class="row">
+                        <div class="field">
+                        <label for="nom">Nom <span class="required">*</span></label>
+                        <input type="text" id="nom" name="nom" autocomplete="family-name" required>
+                        </div>
+                        <div class="field">
+                        <label for="prenom">Prénom <span class="required">*</span></label>
+                        <input type="text" id="prenom" name="prenom" autocomplete="given-name" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="adresse">Adresse <span class="required">*</span></label>
+                        <input type="text" id="adresse" name="adresse" autocomplete="street-address" required>
+                    </div>
+                    <div class="row">
+                        <div class="field small">
+                        <label for="code-postal">Code postal <span class="required">*</span></label>
+                        <input type="text" id="code-postal" name="code_postal" inputmode="numeric"
+                                pattern="[0-9]{5}" maxlength="5" autocomplete="postal-code"
+                                title="5 chiffres" required>
+                        </div>
+                        <div class="field">
+                        <label for="ville">Ville <span class="required">*</span></label>
+                        <input type="text" id="ville" name="ville" autocomplete="address-level2" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="field">
+                        <label for="tel">Téléphone <span class="required">*</span></label>
+                        <input type="tel" id="tel" name="telephone" autocomplete="tel"
+                                placeholder="06 12 34 56 78" required>
+                        </div>
+                        <div class="field">
+                        <label for="email">E-mail <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" autocomplete="email"
+                                placeholder="nom@exemple.fr" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="choix">Votre choix <span class="required">*</span></label>
+                        <select id="choix" name="choix" required>
+                        <option value="" disabled selected>-- Sélectionnez une option --</option>
+                        <option value="choix1">Choix 1</option>
+                        <option value="choix2">Choix 2</option>
+                        <option value="choix3">Choix 3</option>
+                        <option value="choix4">Choix 4</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Votre message..."></textarea>
+                    </div>
+                    <button type="submit">S'inscrire</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="myfooter">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./page-fan1/fansite1.html">Page fan 1</a></li>
+                <li><a href="./page-fan2/fansite2.html">Page fan 2</a></li>
+                <li><a href="./page-fan3/fansite3.html">Page fan 3</a></li>
+                <li><a href="./pages/formulaire.html">Formulaire de contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
