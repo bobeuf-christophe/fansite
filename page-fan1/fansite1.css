@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+main {
+    font-family: 'Bangers', cursive;
+    background-image: url('./images/background.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding: 1px 0;
+}
+
+section {
+    border: 5px solid yellow;
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+.presentation h2 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.presentation img {
+    /*display: block;*/
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.presentation p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.carte {
+    background-color: yellow;
+    overflow: hidden;
+}
+
+.carte img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.carte h3 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 768px) {
+    .presentation h2 {
+        font-size: 3rem;
+    }
+}
