@@ -102,6 +102,12 @@ section {
 	height: 20%;
 }
 
+.carte-main {
+	background-color: yellow;
+	display: flex;
+	flex-direction; row reverse;
+}
+
 .carte-main h3 {
 	background-color: #C9B41A;
 	height: 10%;
