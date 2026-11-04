@@ -76,21 +76,30 @@ section {
 
 .cartes {
     margin: 20px;
+    display: flex;
+    flex-direction: column;
 }
  
-.carte {
-    background-color: white;
-    padding-left: 20%;
-    margin-bottom: 20px;
+.carte-right {
+    background-color: brown;
+	display: flex;
+	flex-direction: row-reverse;
 }
 
-.carte img {
-    width: 100%;
-    display: block;    
+.carte-right img {
+    width: 30%;
+    height: 20%;
 }
  
-.carte h3, .carte p {
-    padding: 10px 15px;
+.carte-left {
+	background-color: #FFE01A;
+	display: flex;
+	flex-direction: row reverse;
+}
+
+.carte-left img {
+	width: 30%;
+	height: 20%;
 }
 
 footer {
