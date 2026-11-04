@@ -97,9 +97,27 @@ section {
 	flex-direction: row reverse;
 }
 
+.carte-left h3 {
+	background-color: #C9B41A;
+	height: 10%;
+}
+
+.carte-left li {
+	margin: 20px;
+	padding: 20px;
+	a {
+		background-color: white;
+	}
+	a:hover {
+		background-color: #BAB7A0;
+		color: blue;
+	}
+}
+
 .carte-left img {
-	width: 30%;
-	height: 20%;
+	width: 50%;
+	height: 30%;
+	margin-left: auto;
 }
 
 footer {
