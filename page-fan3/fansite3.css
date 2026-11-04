@@ -74,6 +74,13 @@ section {
     padding: 20px;
 }
 
+.sub-section {
+	background-color: grey;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 20px;
+}
+
 .cartes {
     margin: 20px;
     display: flex;
