@@ -22,8 +22,9 @@ a {
 header {
     position: sticky;   
     top: 0;
-    background-color: #222;
+    background-color: #57534A;
     color: white;
+    border: 2mm ridge #AB9F84;
     padding: 15px 20px;
 
     display: flex;                   
