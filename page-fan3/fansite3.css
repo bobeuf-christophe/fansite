@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: OCR A Std, monospace;
     background-color: #f5f5f5;
 }
 
@@ -18,19 +18,13 @@ a {
     color: none;
 }
 
-li a {
-	color: grey;
-}
-
-a:hover {
-    color: orange;
-}
 
 header {
     position: sticky;   
     top: 0;
-    background-color: #222;
+    background-color: #57534A;
     color: white;
+    border: 2mm ridge #AB9F84;
     padding: 15px 20px;
 
     display: flex;                   
@@ -56,12 +50,21 @@ header {
 }
 
 .my-nav {
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
     display: none;
     width: 100%;
+    li a {
+	    color: white;
+	}
+	a:hover {
+		color: #E3C488;
+	}
 }
 
 .my-nav li {
     padding: 10px 0;
+    background-color: #7D786D;
+    border: 2mm ridge #AB9F84;
 }
 
 #menu-toggle:checked ~ .my-nav {
@@ -74,23 +77,80 @@ section {
     padding: 20px;
 }
 
-.cartes {
-    margin: 20px;
-}
- 
-.carte {
-    background-color: white;
-    padding-left: 20%;
-    margin-bottom: 20px;
+.sub-section {
+	background-color: grey;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 20px;
 }
 
-.carte img {
-    width: 100%;
-    display: block;    
+.cartes {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
 }
  
-.carte h3, .carte p {
-    padding: 10px 15px;
+.carte-right {
+    background-color: brown;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.carte-right img {
+    width: 30%;
+    height: 20%;
+}
+ 
+.carte-left {
+	background-color: #FFE01A;
+	display: flex;
+	flex-direction: row reverse;
+}
+
+.carte-left img {
+	width: 30%;
+	height: 20%;
+}
+
+.carte-main {
+	background-color: yellow;
+	display: flex;
+	flex-direction: row;
+}
+
+.carte-main h3 {
+	background-color: #C9B41A;
+	height: 10%;
+}
+
+.carte-main ul {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.carte-main li {
+	margin: 20px;
+	padding: 20px;
+	a {
+		background-color: white;
+	}
+	a:hover {
+		background-color: #BAB7A0;
+		color: blue;
+	}
+}
+
+.carte-main img {
+	width: 50%;
+	height: 30%;
+	margin-left: auto;
+}
+
+video {
+	width: 41vw;
+	display: flex;
+	justify-content: center;
 }
 
 footer {
