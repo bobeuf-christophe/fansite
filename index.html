@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home | We are fans</title>
+    <title>Accueil | We are fans</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/accueil.css">
 </head>
 <body>
     <header class="my-header">
@@ -26,26 +27,38 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Le site des fans</h2>
-            <p>Le contenu de ta page ici.</p>
+        <section class="intro">
+            <h2>Bienvenue chez les fans !</h2>
+            <p>
+                Trois fans, trois passions, un seul site. Ici, chacun vous fait découvrir
+                l'univers qu'il adore : la famille la plus célèbre de Springfield,
+                le chevalier le plus loyal (et le plus perdu) de Kaamelott, et les drôles
+                d'oiseaux qui pompent, pompent, pompent… Choisissez votre univers et bonne visite !
+            </p>
         </section>
+
         <div class="cartes">
-            <article class="carte">
-                <img src="#" alt="Description">
-                <h3>Titre du bloc 1</h3>
-                <p>Un petit texte pour présenter ce premier bloc.</p>
-            </article>
-            <article class="carte">
-                <img src="#" alt="Description">
-                <h3>Titre du bloc 2</h3>
-                <p>Un petit texte pour présenter ce deuxième bloc.</p>
-            </article>
-            <article class="carte">
-                <img src="#" alt="Description">
+            <a class="carte carte-lien" href="./page-fan1/fansite1.html">
+                <img src="./page-fan1/images/famille-simpson.jpeg" alt="La famille Simpson réunie">
+                <span class="badge">Fan n°1</span>
+                <h3>Les Simpson</h3>
+                <p>Homer, Marge, Bart, Lisa et Maggie : plongez dans Springfield, la ville de la plus longue série animée de l'histoire.</p>
+                <span class="bouton">Découvrir &rarr;</span>
+            </a>
+            <a class="carte carte-lien" href="./page-fan2/fansite2.html">
+                <img src="./page-fan2/images/perceval.webp" alt="Perceval, chevalier de Kaamelott">
+                <span class="badge">Fan n°2</span>
+                <h3>Perceval (Kaamelott)</h3>
+                <p>Chevalier de la Table Ronde, maître du Sloubi et du Sirop : venez apprendre les jeux du pays de Galles. C'est pas faux !</p>
+                <span class="bouton">Découvrir &rarr;</span>
+            </a>
+            <a class="carte carte-lien" href="./page-fan3/fansite3.html">
+                <img class="img-entiere" src="./page-fan3/les_shadoksjpg.jpg" alt="Un Shadok">
+                <span class="badge">Fan n°3</span>
                 <h3>Les Shadoks</h3>
-                <p>Un petit texte pour présenter ce troisième bloc.</p>
-            </article>
+                <p>Ils pompent, ils raisonnent de travers et ils sont culte : la timeline et les épisodes de nos oiseaux préférés.</p>
+                <span class="bouton">Découvrir &rarr;</span>
+            </a>
         </div>
     </main>
     <footer class="myfooter">
