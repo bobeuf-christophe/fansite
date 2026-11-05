@@ -53,6 +53,20 @@ section {
     letter-spacing: 1px;
 }
 
+.lien-galerie {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: black;
+    color: yellow;
+    border-radius: 5px;
+}
+
+/* Image affichée en entier dans la carte (sans être coupée) */
+.carte .img-entiere {
+    object-fit: contain;
+}
+
 @media (min-width: 768px) {
     .presentation h2 {
         font-size: 3rem;
