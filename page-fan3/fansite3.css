@@ -186,10 +186,9 @@ section {
 }
 
 video {
-	display: block;     
-	width: 90%;         
-	max-width: 800px;  
-	margin: 20px auto;  
+    width: 41vw;
+	display: flex;
+	justify-content: center;
 }
 
 .current-watch {
