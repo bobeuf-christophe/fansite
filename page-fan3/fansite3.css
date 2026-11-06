@@ -186,7 +186,7 @@ section {
 }
 
 video {
-	width: 41vw;
+    width: 41vw;
 	display: flex;
 	justify-content: center;
 }
