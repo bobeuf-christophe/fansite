@@ -62,8 +62,42 @@
     color: orange;
 }
 
+.reseaux {
+    text-align: center;
+    border-radius: 10px;
+}
+
+.reseaux h2 {
+    margin-bottom: 10px;
+}
+
+.reseaux p {
+    margin-bottom: 15px;
+}
+
+.reseaux ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.reseaux a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #222;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.reseaux a:hover {
+    background-color: orange;
+    color: #222;
+}
+
 @media (min-width: 768px) {
     .intro h2 {
-        font-size: 2rem;     
+        font-size: 2rem;
     }
 }
