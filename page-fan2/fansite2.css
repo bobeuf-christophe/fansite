@@ -98,13 +98,10 @@ section {
     font-family: 'IM Fell English', serif;
     display: inline-block;
     padding: 15px 35px;
-
-    
     /* Bordure et ombre pour l'effet de profondeur */
     border: 2px solid #5c2c16;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4), inset 0 0 10px rgba(92, 44, 22, 0.3);
-    
     /* Typographie conservée */
     font-family: 'Cinzel Decorative', serif; 
     font-size: 1.3rem;
@@ -112,9 +109,7 @@ section {
     color: #2c1d11;
     text-align: center;
     text-decoration: none;
-    
 }
-
 /* Effet au survol de la souris */
 .cta-button:hover {
     color: #cc0000; /* Le texte devient rouge */
