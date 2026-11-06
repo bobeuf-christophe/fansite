@@ -151,7 +151,7 @@ section {
 .carte-main {
 	background-color: #f0b239;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
     border: 2mm ridge #c0982b;
     color: #6E571A;
 }
@@ -181,9 +181,8 @@ section {
 }
 
 .carte-main img {
-	width: 200%;
-	height: 200%;
-	margin-left: auto;
+	width: 100%;       
+	height: auto;
 }
 
 video {
