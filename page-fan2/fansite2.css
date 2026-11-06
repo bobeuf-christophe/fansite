@@ -127,6 +127,22 @@ section {
     transform: translateY(1px) scale(0.98);
 }
 
+.jeux h3 a {
+   color: #2c1d11;
+}
+
+.jeux h3 a:hover{
+    color: #cc0000;
+}
+
+.grille-actu h3 a{
+ color:   #2c1d11;
+}
+
+.grille-actu h3 a:hover{
+    color: #cc0000;
+}
+
 /* PAPIER PEINT */
 
 body {
